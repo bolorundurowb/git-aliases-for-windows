@@ -8,6 +8,12 @@
 5. Click 'Yes' on the User Account Control window that shows up.
 6. You're all done
 
+## How to un-use?
+1. Open the `git-aliases-for-windows` folder.
+2. Double click the `unregister-aliases.reg` file.
+3. Click 'Yes' on the User Account Control window that shows up.
+4. You're all done
+
 ## How to contribute
 1. Clone this repo
 2. Add a bunch of aliases or update existing ones (be careful not to break backwards compatibility)
