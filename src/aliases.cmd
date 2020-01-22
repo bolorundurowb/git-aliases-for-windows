@@ -2,7 +2,7 @@
 
 doskey g=git $*
 
-doskey ga=git add
+doskey ga=git add $*
 
 doskey gaa=git add --all
 
@@ -58,7 +58,7 @@ doskey gcm=git checkout master
 
 doskey gcd=git checkout develop
 
-doskey gcmsg=git commit -m
+doskey gcmsg=git commit -m $*
 
 doskey gco=git checkout $*
 
@@ -74,6 +74,12 @@ doskey glog=git log --oneline --decorate --color --graph
 
 doskey ggpull=git pull
 
+doskey gl=git pull
+
 doskey ggpush=git push
 
+doskey gp=git push
+
 doskey gs=git status
+
+doskey gst=git status
