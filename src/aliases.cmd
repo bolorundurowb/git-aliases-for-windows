@@ -48,7 +48,7 @@ doskey gcb=git checkout -b $*
 
 doskey gcf=git config --list
 
-doskey gcl=git clone --recursive
+doskey gcl=git clone --recursive $*
 
 doskey gclean=git clean -fd
 
