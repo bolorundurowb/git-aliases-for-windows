@@ -52,7 +52,7 @@ doskey gcl=git clone --recursive $*
 
 doskey gclean=git clean -fd
 
-doskey gpristine=git reset --hard && git clean -dfx
+doskey gpristine=git reset --hard $T git clean -dfx
 
 doskey gcm=git checkout master
 
