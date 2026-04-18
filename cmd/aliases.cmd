@@ -83,3 +83,43 @@ doskey gp=git push
 doskey gs=git status
 
 doskey gst=git status
+
+doskey gss=git status -s $*
+
+doskey gf=git fetch $*
+
+doskey gfo=git fetch origin $*
+
+doskey gdc=git diff --cached $*
+
+doskey gup=git pull --rebase $*
+
+doskey gsh=git show $*
+
+doskey grb=git rebase $*
+
+doskey grbi=git rebase -i $*
+
+doskey grba=git rebase --abort
+
+doskey grbc=git rebase --continue
+
+doskey gsta=git stash $*
+
+doskey gstp=git stash pop $*
+
+doskey gstaa=git stash apply $*
+
+doskey gsw=git switch $*
+
+doskey gswc=git switch -c $*
+
+doskey grt=git restore $*
+
+doskey grts=git restore --staged $*
+
+doskey gcp=git cherry-pick $*
+
+doskey gcpa=git cherry-pick --abort
+
+doskey gcpc=git cherry-pick --continue
